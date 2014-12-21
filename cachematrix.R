@@ -32,7 +32,7 @@ cacheSolve <- function(x, ...) {
         ##looking for previously cached inverse matrix
         i <- x$getinvmatrix()
         if (!is.null(i)) {
-                print("Getting chached inverse matrix")
+                print("Getting cached inverse matrix")
                 return(i)
         }
         
